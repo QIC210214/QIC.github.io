@@ -389,447 +389,2607 @@
         </div>
     </section>
 
-    <!-- 车型矩阵 -->
-    <section id="models" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">车型矩阵</h2>
-                <p class="text-gray-600 text-lg">从家用轿车到豪华SUV，从纯电到混动，比亚迪为您提供全方位的绿色出行选择</p>
-                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
-            </div>
-            
-            <!-- 车型分类 -->
-            <div class="flex flex-wrap justify-center gap-4 mb-12">
-                <button class="model-filter-btn active bg-primary text-white px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="all">全部车型</button>
-                <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="sedan">轿车</button>
-                <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="suv">SUV</button>
-                <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="mpv">MPV</button>
-                <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="new">概念车型</button>
-            </div>
-            
-            <!-- 车型展示 -->
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- 车型1 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="sedan">
-                    <div class="relative overflow-hidden">
-                        <img src="https://img1.bitautoimg.com/autoalbum/files/20230316/421/202303164467897249642121372_3000x2000_w1.jpg" alt="比亚迪汉EV" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">纯电动</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">比亚迪汉EV</h3>
-                            <span class="text-primary font-bold">20.98万起</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">豪华纯电动轿车，续航可达715km，搭载刀片电池和DiPilot智能驾驶辅助系统</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 715km</div>
-                            <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.9s</div>
-                        </div>
+  <!-- 车型矩阵 -->
+<section id="models" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">车型矩阵</h2>
+            <p class="text-gray-600 text-lg">从家用轿车到豪华SUV，从纯电到混动，比亚迪为您提供全方位的绿色出行选择</p>
+            <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+        </div>
+        
+        <!-- 车型分类 -->
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <button class="model-filter-btn active bg-primary text-white px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="all">全部车型</button>
+            <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="sedan">轿车</button>
+            <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="suv">SUV</button>
+            <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="mpv">MPV</button>
+            <button class="model-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-medium transition-all" data-filter="new">概念车型</button>
+        </div>
+        
+        <!-- 车型展示 -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 车型1 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="sedan">
+                <div class="relative overflow-hidden">
+                    <img src="https://img1.bitautoimg.com/autoalbum/files/20230316/421/202303164467897249642121372_3000x2000_w1.jpg" alt="比亚迪汉EV" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">纯电动</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="比亚迪汉EV">
+                            查看详情
+                        </a>
                     </div>
                 </div>
-                
-                <!-- 车型2 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="suv">
-                    <div class="relative overflow-hidden">
-                        <img src="https://ugc-img.ifengimg.com/img/2021/10/11/b2cdb571-5bc6-4a16-b43a-004e6d67470b_w1620_h1080.jpeg" alt="比亚迪唐DM-i" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">比亚迪汉EV</h3>
+                        <span class="text-primary font-bold">20.98万起</span>
                     </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">比亚迪唐DM-i</h3>
-                            <span class="text-primary font-bold">20.58万起</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">中大型SUV，综合续航可达1050km，搭载DM-i超级混动系统，油耗低至5.3L</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 112km</div>
-                            <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 8.5s</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 车型3 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="suv">
-                    <div class="relative overflow-hidden">
-                        <img src="https://x0.ifengimg.com/res/2022/40FBEE12809C29F8926A83DC65FEECC3509F8788_size198_w800_h492.jpeg" alt="比亚迪海豹" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">纯电动</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">比亚迪海豹</h3>
-                            <span class="text-primary font-bold">21.28万起</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">纯电动轿跑SUV，基于e平台3.0打造，续航可达700km，支持800V高压快充</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 700km</div>
-                            <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.8s</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 车型4 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="mpv">
-                    <div class="relative overflow-hidden">
-                        <img src="https://img8.bitautoimg.com/usercenter/autoalbum/files/20230419/459/w1200_yichecar_202304196611189763545983453.jpg.webp" alt="比亚迪腾势D9" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">腾势D9</h3>
-                            <span class="text-primary font-bold">35.58万起</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">高端智能MPV，纯电续航190km，综合续航1040km，豪华六座布局</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 190km</div>
-                            <div><i class="fa fa-users mr-1 text-primary"></i> 6-9座布局</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 车型5 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="sedan">
-                    <div class="relative overflow-hidden">
-                        <img src="https://img.pcauto.com.cn/images/upload/upc/tx/auto5/2402/19/c0/407334468_1708314270449.jpg" alt="比亚迪秦PLUS DM-i" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">秦PLUS DM-i</h3>
-                            <span class="text-primary font-bold">11.58万起</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">紧凑型轿车，亏电油耗3.8L，纯电续航120km，综合续航1245km</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 120km</div>
-                            <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 7.3s</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 车型6 -->
-                <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="new">
-                    <div class="relative overflow-hidden">
-                        <img src="https://img2.bitautoimg.com/autoalbum/files/20250423/763/2025042315972541706476310076_12890905_22.JPG
-" alt="比亚迪Ocean-S概念车" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
-                        <div class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">概念车型</div>
-                        <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
-                            <a href="#" class="bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105">
-                                查看详情
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-bold">Ocean-S概念车</h3>
-                            <span class="text-primary font-bold">即将上市</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-4">海洋美学设计语言，搭载最新e平台4.0，支持全场景智能交互与L4级自动驾驶</p>
-                        <div class="flex justify-between text-sm text-gray-500">
-                            <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 800km+</div>
-                            <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.0s</div>
-                        </div>
+                    <p class="text-gray-600 text-sm mb-4">豪华纯电动轿车，续航可达715km，搭载刀片电池和DiPilot智能驾驶辅助系统</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 715km</div>
+                        <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.9s</div>
                     </div>
                 </div>
             </div>
             
-            <!-- 查看更多按钮 -->
-            <div class="text-center mt-12">
-                <a href="#" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full font-medium transition-all">
-                    查看全部车型 <i class="fa fa-arrow-right ml-2"></i>
+            <!-- 车型2 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="suv">
+                <div class="relative overflow-hidden">
+                    <img src="https://ugc-img.ifengimg.com/img/2021/10/11/b2cdb571-5bc6-4a16-b43a-004e6d67470b_w1620_h1080.jpeg" alt="比亚迪唐DM-i" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="比亚迪唐DM-i">
+                            查看详情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">比亚迪唐DM-i</h3>
+                        <span class="text-primary font-bold">20.58万起</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">中大型SUV，综合续航可达1050km，搭载DM-i超级混动系统，油耗低至5.3L</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 112km</div>
+                        <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 8.5s</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 车型3 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="suv">
+                <div class="relative overflow-hidden">
+                    <img src="https://x0.ifengimg.com/res/2022/40FBEE12809C29F8926A83DC65FEECC3509F8788_size198_w800_h492.jpeg" alt="比亚迪海豹" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">纯电动</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="比亚迪海豹">
+                            查看详情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">比亚迪海豹</h3>
+                        <span class="text-primary font-bold">21.28万起</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">纯电动轿跑SUV，基于e平台3.0打造，续航可达700km，支持800V高压快充</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 700km</div>
+                        <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.8s</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 车型4 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="mpv">
+                <div class="relative overflow-hidden">
+                    <img src="https://img8.bitautoimg.com/usercenter/autoalbum/files/20230419/459/w1200_yichecar_202304196611189763545983453.jpg.webp" alt="比亚迪腾势D9" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="腾势D9">
+                            查看详情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">腾势D9</h3>
+                        <span class="text-primary font-bold">35.58万起</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">高端智能MPV，纯电续航190km，综合续航1040km，豪华六座布局</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 190km</div>
+                        <div><i class="fa fa-users mr-1 text-primary"></i> 6-9座布局</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 车型5 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="sedan">
+                <div class="relative overflow-hidden">
+                    <img src="https://img.pcauto.com.cn/images/upload/upc/tx/auto5/2402/19/c0/407334468_1708314270449.jpg" alt="比亚迪秦PLUS DM-i" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">插电混动</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="比亚迪秦PLUS DM-i">
+                            查看详情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">秦PLUS DM-i</h3>
+                        <span class="text-primary font-bold">11.58万起</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">紧凑型轿车，亏电油耗3.8L，纯电续航120km，综合续航1245km</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 120km</div>
+                        <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 7.3s</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 车型6 -->
+            <div class="car-card bg-white rounded-xl overflow-hidden shadow-md model-item" data-category="new">
+                <div class="relative overflow-hidden">
+                    <img src="https://img2.bitautoimg.com/autoalbum/files/20250423/763/2025042315972541706476310076_12890905_22.JPG" alt="比亚迪Ocean-S概念车" class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110" />
+                    <div class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">概念车型</div>
+                    <div class="car-overlay absolute inset-0 bg-dark bg-opacity-60 flex items-center justify-center opacity-0 transition-opacity duration-300">
+                        <a href="#" class="view-detail-btn bg-white text-primary px-6 py-2 rounded-full text-sm font-medium transform transition-transform hover:scale-105" data-car="Ocean-S概念车">
+                            查看详情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-bold">Ocean-S概念车</h3>
+                        <span class="text-primary font-bold">即将上市</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">海洋美学设计语言，搭载最新e平台4.0，支持全场景智能交互与L4级自动驾驶</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <div><i class="fa fa-bolt mr-1 text-primary"></i> 纯电续航 800km+</div>
+                        <div><i class="fa fa-tachometer mr-1 text-primary"></i> 百公里加速 3.0s</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 查看更多按钮 -->
+        <div class="text-center mt-12">
+            <a href="#" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full font-medium transition-all">
+                查看全部车型 <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 车型详情模态框 (默认隐藏) -->
+<div id="carDetailModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button id="closeModal" class="absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <img id="modalCarImage" src="" alt="车型详情图" class="w-full h-64 object-cover" />
+        </div>
+        <div class="p-6">
+            <h3 id="modalCarTitle" class="text-2xl font-bold mb-2"></h3>
+            <p id="modalCarPrice" class="text-primary font-bold text-lg mb-4"></p>
+            <div id="modalCarDescription" class="text-gray-600 mb-6"></div>
+            
+            <h4 class="text-lg font-semibold mb-3">核心参数</h4>
+            <div id="modalCarSpecs" class="grid grid-cols-2 gap-4 mb-6">
+                <!-- 参数将通过JS动态填充 -->
+            </div>
+            
+            <div class="flex justify-end gap-3">
+                <button id="cancelModal" class="border border-gray-300 text-gray-700 px-6 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors">
+                    关闭
+                </button>
+                <a id="modalInquiryBtn" href="#" class="bg-primary text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-primary-dark transition-colors">
+                    在线咨询
                 </a>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- 核心技术 -->
-    <section id="technology" class="py-20 bg-white">
-        <div class="container mx-auto px-4 md:px-6">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">核心技术</h2>
-                <p class="text-gray-600 text-lg">比亚迪"技术鱼池"战略，以创新驱动发展，掌握新能源汽车全产业链核心技术</p>
-                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+<script>
+// 等待DOM加载完成
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. 车型过滤功能
+    const filterBtns = document.querySelectorAll('.model-filter-btn');
+    const carItems = document.querySelectorAll('.model-item');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // 切换按钮激活状态
+            filterBtns.forEach(b => b.classList.remove('active', 'bg-primary', 'text-white'));
+            filterBtns.forEach(b => b.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-100'));
+            this.classList.add('active', 'bg-primary', 'text-white');
+            this.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            // 过滤车型
+            carItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                    // 为了动画效果，添加延迟显示
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'translateY(0)';
+                    }, 50);
+                } else {
+                    item.style.opacity = '0';
+                    item.style.transform = 'translateY(20px)';
+                    // 延迟隐藏，让动画完成
+                    setTimeout(() => {
+                        item.style.display = 'none';
+                    }, 300);
+                }
+            });
+        });
+    });
+    
+    // 2. 图片悬停显示overlay效果
+    const carCards = document.querySelectorAll('.car-card');
+    carCards.forEach(card => {
+        const overlay = card.querySelector('.car-overlay');
+        card.addEventListener('mouseenter', () => {
+            overlay.style.opacity = '1';
+        });
+        card.addEventListener('mouseleave', () => {
+            overlay.style.opacity = '0';
+        });
+    });
+    
+    // 3. 查看详情按钮功能 - 模态框
+    const viewDetailBtns = document.querySelectorAll('.view-detail-btn');
+    const modal = document.getElementById('carDetailModal');
+    const closeModalBtn = document.getElementById('closeModal');
+    const cancelModalBtn = document.getElementById('cancelModal');
+    
+    // 车型数据（实际项目中可从API获取）
+    const carData = {
+        '比亚迪汉EV': {
+            image: 'https://img1.bitautoimg.com/autoalbum/files/20230316/421/202303164467897249642121372_3000x2000_w1.jpg',
+            price: '20.98万起',
+            description: '豪华纯电动轿车，融合中国传统文化与现代科技美学。搭载刀片电池，安全性能行业领先；DiPilot智能驾驶辅助系统，提供全方位安全防护；715km超长续航，告别里程焦虑。',
+            specs: {
+                '动力类型': '纯电动',
+                '纯电续航': '715km',
+                '百公里加速': '3.9s',
+                '电池容量': '85.4kWh',
+                '快充时间': '30分钟(30%-80%)',
+                '驱动形式': '四驱'
+            },
+            inquiryUrl: '#han-ev-inquiry'
+        },
+        '比亚迪唐DM-i': {
+            image: 'https://ugc-img.ifengimg.com/img/2021/10/11/b2cdb571-5bc6-4a16-b43a-004e6d67470b_w1620_h1080.jpeg',
+            price: '20.58万起',
+            description: '中大型智能混动SUV，搭载DM-i超级混动系统，以电为主、可油可电。综合续航可达1050km，亏电油耗低至5.3L，兼顾性能与经济性。超大空间布局，满足家庭出行需求。',
+            specs: {
+                '动力类型': '插电混动',
+                '纯电续航': '112km',
+                '综合续航': '1050km',
+                '百公里加速': '8.5s',
+                '亏电油耗': '5.3L/100km',
+                '座位数': '5/7座'
+            },
+            inquiryUrl: '#tang-dmi-inquiry'
+        },
+        '比亚迪海豹': {
+            image: 'https://x0.ifengimg.com/res/2022/40FBEE12809C29F8926A83DC65FEECC3509F8788_size198_w800_h492.jpeg',
+            price: '21.28万起',
+            description: '基于e平台3.0打造的纯电动轿跑SUV，采用海洋美学设计语言，线条流畅动感。支持800V高压快充，充电5分钟续航150km；搭载CTB电池车身一体化技术，操控性能卓越。',
+            specs: {
+                '动力类型': '纯电动',
+                '纯电续航': '700km',
+                '百公里加速': '3.8s',
+                '充电功率': '800V高压快充',
+                '车身结构': 'CTB技术',
+                '驱动形式': '后驱/四驱'
+            },
+            inquiryUrl: '#haibao-inquiry'
+        },
+        '腾势D9': {
+            image: 'https://img8.bitautoimg.com/usercenter/autoalbum/files/20230419/459/w1200_yichecar_202304196611189763545983453.jpg.webp',
+            price: '35.58万起',
+            description: '高端智能MPV，由比亚迪与奔驰联合打造。纯电续航190km，综合续航1040km，满足商务与家庭双重需求。豪华六座布局，配备智能座舱与全方位安全系统。',
+            specs: {
+                '动力类型': '插电混动',
+                '纯电续航': '190km',
+                '综合续航': '1040km',
+                '座位布局': '6-9座',
+                '智能系统': '腾势Link',
+                '安全配置': 'L2+级辅助驾驶'
+            },
+            inquiryUrl: '#tengshi-d9-inquiry'
+        },
+        '比亚迪秦PLUS DM-i': {
+            image: 'https://img.pcauto.com.cn/images/upload/upc/tx/auto5/2402/19/c0/407334468_1708314270449.jpg',
+            price: '11.58万起',
+            description: '紧凑型混动轿车，被誉为"燃油车颠覆者"。亏电油耗低至3.8L，纯电续航120km，综合续航1245km。价格亲民，配置丰富，是家用轿车的理想选择。',
+            specs: {
+                '动力类型': '插电混动',
+                '纯电续航': '120km',
+                '综合续航': '1245km',
+                '百公里加速': '7.3s',
+                '亏电油耗': '3.8L/100km',
+                '电池类型': '刀片电池'
+            },
+            inquiryUrl: '#qin-plus-inquiry'
+        },
+        'Ocean-S概念车': {
+            image: 'https://img2.bitautoimg.com/autoalbum/files/20250423/763/2025042315972541706476310076_12890905_22.JPG',
+            price: '即将上市',
+            description: '比亚迪海洋系列概念车，展现未来出行新形态。搭载最新e平台4.0，纯电续航超800km，百公里加速仅3.0秒。支持全场景智能交互与L4级自动驾驶，引领汽车技术革新。',
+            specs: {
+                '动力类型': '纯电动',
+                '纯电续航': '800km+',
+                '百公里加速': '3.0s',
+                '平台技术': 'e平台4.0',
+                '自动驾驶': 'L4级',
+                '设计语言': '海洋美学'
+            },
+            inquiryUrl: '#ocean-s-inquiry'
+        }
+    };
+    
+    // 打开模态框
+    viewDetailBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault(); // 阻止默认跳转行为
+            const carName = this.getAttribute('data-car');
+            const carInfo = carData[carName];
+            
+            if (carInfo) {
+                // 填充模态框数据
+                document.getElementById('modalCarTitle').textContent = carName;
+                document.getElementById('modalCarPrice').textContent = carInfo.price;
+                document.getElementById('modalCarDescription').textContent = carInfo.description;
+                document.getElementById('modalCarImage').src = carInfo.image;
+                document.getElementById('modalCarImage').alt = carName;
+                document.getElementById('modalInquiryBtn').href = carInfo.inquiryUrl;
+                
+                // 填充参数
+                const specsContainer = document.getElementById('modalCarSpecs');
+                specsContainer.innerHTML = '';
+                for (const [key, value] of Object.entries(carInfo.specs)) {
+                    const specItem = document.createElement('div');
+                    specItem.className = 'flex justify-between';
+                    specItem.innerHTML = `<span class="text-gray-500">${key}</span><span class="font-medium">${value}</span>`;
+                    specsContainer.appendChild(specItem);
+                }
+                
+                // 显示模态框
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // 禁止背景滚动
+            }
+        });
+    });
+    
+    // 关闭模态框
+    function closeModal() {
+        modal.classList.add('hidden');
+        document.body.style.overflow = ''; // 恢复背景滚动
+    }
+    
+    closeModalBtn.addEventListener('click', closeModal);
+    cancelModalBtn.addEventListener('click', closeModal);
+    
+    // 点击模态框背景关闭
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    // 键盘ESC关闭模态框
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            closeModal();
+        }
+    });
+    
+    // 4. 查看全部车型按钮跳转（可根据实际需求修改）
+    const viewAllBtn = document.querySelector('.text-center a');
+    viewAllBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('即将跳转到全部车型页面');
+        // 实际项目中可改为：window.location.href = '/all-models';
+    });
+});
+</script>
+
+<style>
+/* 补充模态框动画 */
+#carDetailModal {
+    transition: opacity 0.3s ease;
+}
+#carDetailModal.bg-opacity-70 {
+    opacity: 1;
+}
+#carDetailModal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+#carDetailModal > div {
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+#carDetailModal:not(.hidden) > div {
+    transform: translateY(0);
+}
+
+/* 车型卡片过渡效果 */
+.model-item {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* 补充缺失的颜色变量（根据实际项目调整） */
+:root {
+    --primary: #1677ff; /* 比亚迪蓝 */
+    --primary-dark: #0f5ccc;
+    --secondary: #36cbcb; /* 混动绿 */
+    --accent: #ff7d00; /* 概念车橙 */
+    --dark: #1d1d1f;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+.text-primary {
+    color: var(--primary);
+}
+.bg-primary-dark {
+    background-color: var(--primary-dark);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-accent {
+    background-color: var(--accent);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+</style>
+   <!-- 核心技术 -->
+<section id="technology" class="py-20 bg-white">
+    <div class="container mx-auto px-4 md:px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">核心技术</h2>
+            <p class="text-gray-600 text-lg">比亚迪"技术鱼池"战略，以创新驱动发展，掌握新能源汽车全产业链核心技术</p>
+            <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+        </div>
+        
+        <!-- 技术展示 -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 技术1 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="blade-battery">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-battery-full text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">刀片电池</h3>
+                <p class="text-gray-600 mb-4">采用创新的电芯结构和磷酸铁锂材料体系，通过针刺测试，安全性行业领先，能量密度高，循环寿命长。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="刀片电池">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
             </div>
             
-            <!-- 技术展示 -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- 技术1 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-battery-full text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">刀片电池</h3>
-                    <p class="text-gray-600 mb-4">采用创新的电芯结构和磷酸铁锂材料体系，通过针刺测试，安全性行业领先，能量密度高，循环寿命长。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+            <!-- 技术2 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="dm-i">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-cogs text-primary text-2xl"></i>
                 </div>
-                
-                <!-- 技术2 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-cogs text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">DM-i超级混动</h3>
-                    <p class="text-gray-600 mb-4">以电为主的混动技术，兼具电动车的静谧、平顺和燃油车的续航优势，亏电油耗低至3.8L/100km。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+                <h3 class="text-xl font-bold mb-3">DM-i超级混动</h3>
+                <p class="text-gray-600 mb-4">以电为主的混动技术，兼具电动车的静谧、平顺和燃油车的续航优势，亏电油耗低至3.8L/100km。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="DM-i超级混动">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
+            </div>
+            
+            <!-- 技术3 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="e-platform">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-microchip text-primary text-2xl"></i>
                 </div>
-                
-                <!-- 技术3 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-microchip text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">e平台3.0</h3>
-                    <p class="text-gray-600 mb-4">纯电专属平台，搭载八合一电动力总成，充电5分钟续航150km，支持VTOL移动电站功能，低温续航提升20%。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+                <h3 class="text-xl font-bold mb-3">e平台3.0</h3>
+                <p class="text-gray-600 mb-4">纯电专属平台，搭载八合一电动力总成，充电5分钟续航150km，支持VTOL移动电站功能，低温续航提升20%。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="e平台3.0">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
+            </div>
+            
+            <!-- 技术4 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="dipilot">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-car text-primary text-2xl"></i>
                 </div>
-                
-                <!-- 技术4 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-car text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">DiPilot智能驾驶</h3>
-                    <p class="text-gray-600 mb-4">集成ACC自适应巡航、车道保持、自动泊车等功能，通过持续OTA升级，不断提升智能化水平。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+                <h3 class="text-xl font-bold mb-3">DiPilot智能驾驶</h3>
+                <p class="text-gray-600 mb-4">集成ACC自适应巡航、车道保持、自动泊车等功能，通过持续OTA升级，不断提升智能化水平。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="DiPilot智能驾驶">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
+            </div>
+            
+            <!-- 技术5 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="dilink">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-mobile text-primary text-2xl"></i>
                 </div>
-                
-                <!-- 技术5 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-mobile text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">DiLink智能网联</h3>
-                    <p class="text-gray-600 mb-4">支持手机APP远程控制，搭载智能语音交互系统，可实现整车OTA升级，持续优化用户体验。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+                <h3 class="text-xl font-bold mb-3">DiLink智能网联</h3>
+                <p class="text-gray-600 mb-4">支持手机APP远程控制，搭载智能语音交互系统，可实现整车OTA升级，持续优化用户体验。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="DiLink智能网联">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
+            </div>
+            
+            <!-- 技术6 -->
+            <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow" data-tech="battery-recycle">
+                <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <i class="fa fa-recycle text-primary text-2xl"></i>
                 </div>
+                <h3 class="text-xl font-bold mb-3">电池回收技术</h3>
+                <p class="text-gray-600 mb-4">构建从电池生产到回收的全生命周期管理体系，实现资源高效利用和环境友好，推动可持续发展。</p>
+                <a href="#" class="tech-detail-btn text-primary font-medium flex items-center hover:underline" data-tech-name="电池回收技术">
+                    了解更多 <i class="fa fa-angle-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 技术详情模态框 (默认隐藏) -->
+<div id="techDetailModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button id="closeTechModal" class="absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div id="techModalHeader" class="w-full h-48 flex items-center justify-center bg-primary/5">
+                <i id="techModalIcon" class="fa text-primary text-6xl"></i>
+            </div>
+        </div>
+        <div class="p-6">
+            <h3 id="techModalTitle" class="text-2xl font-bold mb-2"></h3>
+            <div id="techModalDescription" class="text-gray-600 mb-6 leading-relaxed"></div>
+            
+            <h4 class="text-lg font-semibold mb-3">核心优势</h4>
+            <div id="techModalAdvantages" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+                <!-- 优势将通过JS动态填充 -->
+            </div>
+            
+            <h4 class="text-lg font-semibold mb-3">应用车型</h4>
+            <div id="techModalModels" class="flex flex-wrap gap-2 mb-6">
+                <!-- 应用车型将通过JS动态填充 -->
+            </div>
+            
+            <div class="flex justify-end gap-3">
+                <button id="cancelTechModal" class="border border-gray-300 text-gray-700 px-6 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors">
+                    关闭
+                </button>
+                <a id="techLearnMoreBtn" href="#" class="bg-primary text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-primary-dark transition-colors">
+                    查看技术白皮书
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// 技术详情功能
+document.addEventListener('DOMContentLoaded', function() {
+    // 技术数据
+    const techData = {
+        '刀片电池': {
+            icon: 'fa-battery-full',
+            description: '比亚迪刀片电池是一款具有革命性意义的动力电池，采用创新的长电芯、薄电池包结构设计，将电芯做成刀片状，直接集成到电池包中，取消了传统的模组结构。该电池采用磷酸铁锂材料体系，不仅通过了行业最严苛的针刺测试，展现出极致的安全性能，还具备能量密度高、循环寿命长、成本优势明显等特点。刀片电池的出现，重新定义了新能源汽车的安全标准，为电动车的普及奠定了坚实基础。',
+            advantages: [
+                '极致安全：通过针刺测试，杜绝热失控',
+                '长循环寿命：循环次数超3000次，使用寿命更长',
+                '高能量密度：相比传统磷酸铁锂电池提升10%',
+                '成本优势：简化结构设计，降低制造成本',
+                '宽温域适应：-30℃~60℃正常工作'
+            ],
+            models: ['汉EV', '唐EV', '秦PLUS EV', '海豹', '元PLUS'],
+            learnMoreUrl: '#blade-battery-whitepaper'
+        },
+        'DM-i超级混动': {
+            icon: 'fa-cogs',
+            description: 'DM-i超级混动是比亚迪推出的以电为主的混动技术，颠覆了传统混动技术的设计理念。它以大功率电机驱动和大容量电池供能为主，发动机为辅，实现了"快、省、静、顺、绿"的五大产品优势。DM-i超级混动系统由专用混动发动机、大功率电机、大容量电池和DHT混动专用变速箱组成，可实现纯电、串联、并联三种驱动模式的智能切换，在不同工况下都能保持最佳的能效表现，亏电油耗低至3.8L/100km，综合续航可达1200km以上。',
+            advantages: [
+                '超低油耗：亏电油耗低至3.8L/100km',
+                '超长续航：综合续航可达1200km+',
+                '平顺静谧：电机驱动为主，无换挡顿挫',
+                '动力响应：电机即时扭矩，起步迅猛',
+                '绿色环保：可油可电，纯电续航满足日常通勤'
+            ],
+            models: ['秦PLUS DM-i', '宋PLUS DM-i', '唐DM-i', '汉DM-i', '驱逐舰05'],
+            learnMoreUrl: '#dm-i-whitepaper'
+        },
+        'e平台3.0': {
+            icon: 'fa-microchip',
+            description: 'e平台3.0是比亚迪专为下一代高性能智能电动车打造的专属平台，具备"下一代电动车的摇篮"之称。该平台基于800V高压架构设计，搭载全球首款八合一电动力总成，集成度更高、效率更高、体积更小。e平台3.0支持电池车身一体化（CTB）技术，将电池包与车身深度融合，提升车身刚性和操控性能。同时，该平台还支持超快充技术，充电5分钟可续航150km，配备VTOL移动电站功能，可对外放电，满足露营、应急供电等多种场景需求。',
+            advantages: [
+                '800V高压架构：充电效率提升一倍',
+                '八合一电驱：综合效率高达94.5%',
+                'CTB技术：车身刚性提升50%',
+                'VTOL移动电站：对外放电功率可达6kW',
+                '智能热管理：低温续航提升20%'
+            ],
+            models: ['海豹', '海豚', '元PLUS EV', '腾势N7', 'Ocean-S概念车'],
+            learnMoreUrl: '#e-platform-30-whitepaper'
+        },
+        'DiPilot智能驾驶': {
+            icon: 'fa-car',
+            description: 'DiPilot智能驾驶辅助系统是比亚迪自主研发的智能驾驶解决方案，基于多传感器融合技术，具备L2+级智能驾驶辅助能力。该系统集成了ACC-S&G全速域自适应巡航、LCC车道居中控制、ELK紧急车道保持、APA自动泊车、记忆泊车等多项智能驾驶功能，可实现从高速到城区道路的全场景辅助驾驶。DiPilot系统通过持续的OTA升级，不断优化算法和功能，逐步提升智能化水平，为用户提供更安全、更便捷、更舒适的驾驶体验。',
+            advantages: [
+                '全场景覆盖：高速、城区、泊车全场景辅助',
+                '多传感器融合：摄像头+雷达+超声波融合感知',
+                'OTA持续升级：功能不断进化',
+                '安全冗余：多重安全保障机制',
+                '人性化交互：简洁直观的操作逻辑'
+            ],
+            models: ['汉EV/DM-i', '唐EV/DM-i', '海豹', '腾势D9', '宋PLUS EV/DM-i'],
+            learnMoreUrl: '#dipilot-whitepaper'
+        },
+        'DiLink智能网联': {
+            icon: 'fa-mobile',
+            description: 'DiLink智能网联系统是比亚迪打造的智能座舱解决方案，以"开放、互联、智能"为核心理念，构建了一套完整的智能生态系统。该系统搭载高性能芯片，支持超大尺寸中控屏、全场景语音交互、手机APP远程控制、整车OTA升级等功能。DiLink系统开放了341个传感器和66项控制权限，吸引了大量第三方开发者参与生态建设，形成了丰富的应用场景。用户可以通过语音控制空调、导航、娱乐等功能，实现"能动口不动手"的智能交互体验。',
+            advantages: [
+                '全场景语音：连续对话、方言识别、免唤醒',
+                '整车OTA：整车系统在线升级',
+                '手机互联：远程控制、无感连接',
+                '开放生态：海量第三方应用',
+                '多屏联动：中控屏、仪表盘、HUD联动'
+            ],
+            models: ['全系车型'],
+            learnMoreUrl: '#dilink-whitepaper'
+        },
+        '电池回收技术': {
+            icon: 'fa-recycle',
+            description: '比亚迪构建了从电池生产、使用到回收的全生命周期管理体系，致力于实现资源的高效利用和环境的可持续发展。该技术采用"梯次利用+材料回收"的双路径模式，对于退役动力电池，首先进行检测、筛选、重组，用于储能、低速电动车等场景的梯次利用；当电池性能下降到一定程度后，再进行拆解回收，提取锂、钴、镍等贵金属材料，重新用于电池生产。通过这种模式，比亚迪实现了动力电池的闭环管理，资源回收率可达99%以上，有效降低了对原生矿产资源的依赖，减少了环境污染。',
+            advantages: [
+                '高回收率：资源回收率超99%',
+                '梯次利用：延长电池生命周期',
+                '环境友好：减少废弃物排放',
+                '资源循环：降低原生矿产依赖',
+                '安全规范：专业的回收处理流程'
+            ],
+            models: ['全系车型退役电池'],
+            learnMoreUrl: '#battery-recycle-whitepaper'
+        }
+    };
+    
+    // 获取元素
+    const techDetailBtns = document.querySelectorAll('.tech-detail-btn');
+    const techModal = document.getElementById('techDetailModal');
+    const closeTechModalBtn = document.getElementById('closeTechModal');
+    const cancelTechModalBtn = document.getElementById('cancelTechModal');
+    
+    // 打开技术详情模态框
+    techDetailBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const techName = this.getAttribute('data-tech-name');
+            const techInfo = techData[techName];
+            
+            if (techInfo) {
+                // 填充模态框数据
+                document.getElementById('techModalTitle').textContent = techName;
+                document.getElementById('techModalDescription').textContent = techInfo.description;
+                document.getElementById('techModalIcon').className = `fa ${techInfo.icon} text-primary text-6xl`;
+                document.getElementById('techLearnMoreBtn').href = techInfo.learnMoreUrl;
                 
-                <!-- 技术6 -->
-                <div class="tech-card bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="tech-icon w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa fa-recycle text-primary text-2xl"></i>
+                // 填充核心优势
+                const advantagesContainer = document.getElementById('techModalAdvantages');
+                advantagesContainer.innerHTML = '';
+                techInfo.advantages.forEach(advantage => {
+                    const advantageItem = document.createElement('div');
+                    advantageItem.className = 'flex items-start';
+                    advantageItem.innerHTML = `<i class="fa fa-check-circle text-primary mt-1 mr-2"></i><span>${advantage}</span>`;
+                    advantagesContainer.appendChild(advantageItem);
+                });
+                
+                // 填充应用车型
+                const modelsContainer = document.getElementById('techModalModels');
+                modelsContainer.innerHTML = '';
+                techInfo.models.forEach(model => {
+                    const modelTag = document.createElement('span');
+                    modelTag.className = 'bg-primary/10 text-primary px-3 py-1 rounded-full text-sm';
+                    modelTag.textContent = model;
+                    modelsContainer.appendChild(modelTag);
+                });
+                
+                // 显示模态框
+                techModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        });
+    });
+    
+    // 关闭技术详情模态框
+    function closeTechModal() {
+        techModal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+    
+    closeTechModalBtn.addEventListener('click', closeTechModal);
+    cancelTechModalBtn.addEventListener('click', closeTechModal);
+    
+    // 点击模态框背景关闭
+    techModal.addEventListener('click', function(e) {
+        if (e.target === techModal) {
+            closeTechModal();
+        }
+    });
+    
+    // 键盘ESC关闭模态框
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !techModal.classList.contains('hidden')) {
+            closeTechModal();
+        }
+    });
+    
+    // 技术卡片hover效果增强
+    const techCards = document.querySelectorAll('.tech-card');
+    techCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+});
+</script>
+
+<style>
+/* 技术模态框动画 */
+#techDetailModal {
+    transition: opacity 0.3s ease;
+}
+#techDetailModal.bg-opacity-70 {
+    opacity: 1;
+}
+#techDetailModal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+#techDetailModal > div {
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+#techDetailModal:not(.hidden) > div {
+    transform: translateY(0);
+}
+
+/* 技术卡片增强样式 */
+.tech-card {
+    transition: all 0.3s ease;
+}
+.tech-card:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* 补充响应式调整 */
+@media (max-width: 768px) {
+    #techModalHeader {
+        height: 32px;
+    }
+    #techModalIcon {
+        font-size: 4xl !important;
+    }
+}
+</style>
+            
+           
+  <!-- 用户服务 -->
+<section id="services" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">用户服务</h2>
+            <p class="text-gray-600 text-lg">比亚迪致力于为用户提供全方位、高品质的服务体验，让每一次出行都安心无忧</p>
+            <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+        </div>
+        
+        <!-- 服务项目 -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
+                    <i class="fa fa-calendar-check-o text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">试驾预约</h3>
+                <p class="text-gray-600 text-sm">在线预约试驾，专业顾问为您提供一对一服务，深度体验车辆性能</p>
+                <!-- 修复：绑定data-service="test-drive"，用于触发对应模态框 -->
+                <a href="#test-drive" class="service-btn text-primary font-medium inline-block mt-4 hover:underline" data-service="test-drive">
+                    立即预约 <i class="fa fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
+                    <i class="fa fa-wrench text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">售后保养</h3>
+                <p class="text-gray-600 text-sm">全国超600家服务网点，专业技师团队，为您的爱车提供全方位保养服务</p>
+                <a href="#" class="service-btn text-primary font-medium inline-block mt-4 hover:underline" data-service="maintenance">
+                    预约保养 <i class="fa fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
+                    <i class="fa fa-map-marker text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">充电网络</h3>
+                <p class="text-gray-600 text-sm">接入全国超30万充电桩，实时查询、导航、支付一站式服务，出行无忧</p>
+                <a href="#" class="service-btn text-primary font-medium inline-block mt-4 hover:underline" data-service="charging">
+                    查找充电桩 <i class="fa fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
+                    <i class="fa fa-comments text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">客户支持</h3>
+                <p class="text-gray-600 text-sm">7×24小时客户服务热线，专业解答您的疑问，及时处理您的需求</p>
+                <a href="#" class="service-btn text-primary font-medium inline-block mt-4 hover:underline" data-service="support">
+                    联系我们 <i class="fa fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 新增：预约试驾模态框 -->
+<div id="testDriveModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button class="close-modal absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="w-full h-32 flex items-center justify-center bg-primary/5">
+                <i class="fa fa-calendar-check-o text-primary text-5xl"></i>
+            </div>
+        </div>
+        <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-center">预约试驾服务</h3>
+            <form id="testDriveForm" class="space-y-4">
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveName">
+                        您的姓名
+                    </label>
+                    <input id="testDriveName" type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入姓名" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="testDrivePhone">
+                        联系电话
+                    </label>
+                    <input id="testDrivePhone" type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入11位手机号" required pattern="^1[3-9]\d{9}$">
+                    <p id="testDrivePhoneError" class="text-red-500 text-xs mt-1 hidden">请输入有效的11位手机号</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveModel">
+                            意向车型
+                        </label>
+                        <select id="testDriveModel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            <option value="">请选择车型</option>
+                            <option value="汉EV">汉EV</option>
+                            <option value="唐DM-i">唐DM-i</option>
+                            <option value="海豹">海豹</option>
+                            <option value="腾势D9">腾势D9</option>
+                            <option value="秦PLUS DM-i">秦PLUS DM-i</option>
+                            <option value="宋PLUS DM-i">宋PLUS DM-i</option>
+                        </select>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">电池回收技术</h3>
-                    <p class="text-gray-600 mb-4">构建从电池生产到回收的全生命周期管理体系，实现资源高效利用和环境友好，推动可持续发展。</p>
-                    <a href="#" class="text-primary font-medium flex items-center hover:underline">
-                        了解更多 <i class="fa fa-angle-right ml-2"></i>
-                    </a>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveCity">
+                            所在城市
+                        </label>
+                        <input id="testDriveCity" type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入所在城市" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveDate">
+                            预约日期
+                        </label>
+                        <input id="testDriveDate" type="date" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveTime">
+                            预约时间
+                        </label>
+                        <select id="testDriveTime" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            <option value="">请选择时间</option>
+                            <option value="09:00-10:00">09:00-10:00</option>
+                            <option value="10:00-11:00">10:00-11:00</option>
+                            <option value="14:00-15:00">14:00-15:00</option>
+                            <option value="15:00-16:00">15:00-16:00</option>
+                            <option value="16:00-17:00">16:00-17:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="testDriveRemark">
+                        备注信息
+                    </label>
+                    <textarea id="testDriveRemark" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入特殊需求（如试驾场地偏好等）"></textarea>
+                </div>
+                <div class="flex justify-end gap-3 pt-4">
+                    <button type="button" class="cancel-modal border border-gray-300 text-gray-700 px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors">
+                        取消
+                    </button>
+                    <button type="submit" class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors">
+                        提交预约
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- 预约保养模态框（原代码不变） -->
+<div id="maintenanceModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button class="close-modal absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="w-full h-32 flex items-center justify-center bg-primary/5">
+                <i class="fa fa-wrench text-primary text-5xl"></i>
+            </div>
+        </div>
+        <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-center">预约保养服务</h3>
+            <form id="maintenanceForm" class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="carModel">
+                            车型
+                        </label>
+                        <select id="carModel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            <option value="">请选择车型</option>
+                            <option value="汉EV">汉EV</option>
+                            <option value="唐DM-i">唐DM-i</option>
+                            <option value="海豹">海豹</option>
+                            <option value="腾势D9">腾势D9</option>
+                            <option value="秦PLUS DM-i">秦PLUS DM-i</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="licensePlate">
+                            车牌号
+                        </label>
+                        <input id="licensePlate" type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入车牌号" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="ownerName">
+                        车主姓名
+                    </label>
+                    <input id="ownerName" type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入姓名" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="phoneNumber">
+                        联系电话
+                    </label>
+                    <input id="phoneNumber" type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入手机号" required>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="serviceDate">
+                            预约日期
+                        </label>
+                        <input id="serviceDate" type="date" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="serviceTime">
+                            预约时间
+                        </label>
+                        <select id="serviceTime" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            <option value="">请选择时间</option>
+                            <option value="09:00-10:00">09:00-10:00</option>
+                            <option value="10:00-11:00">10:00-11:00</option>
+                            <option value="14:00-15:00">14:00-15:00</option>
+                            <option value="15:00-16:00">15:00-16:00</option>
+                            <option value="16:00-17:00">16:00-17:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="serviceType">
+                        保养类型
+                    </label>
+                    <select id="serviceType" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                        <option value="">请选择保养类型</option>
+                        <option value="常规保养">常规保养</option>
+                        <option value="机油更换">机油更换</option>
+                        <option value="刹车系统检查">刹车系统检查</option>
+                        <option value="电池检测">电池检测</option>
+                        <option value="其他服务">其他服务</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="serviceRemark">
+                        备注信息
+                    </label>
+                    <textarea id="serviceRemark" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入需要说明的问题或特殊需求"></textarea>
+                </div>
+                <div class="flex justify-end gap-3 pt-4">
+                    <button type="button" class="cancel-modal border border-gray-300 text-gray-700 px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors">
+                        取消
+                    </button>
+                    <button type="submit" class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors">
+                        提交预约
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- 充电桩查询模态框（原代码不变） -->
+<div id="chargingModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-4xl max-h-[90vh] overflow-hidden">
+        <div class="relative">
+            <button class="close-modal absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="w-full h-48 bg-primary/5 flex flex-col items-center justify-center p-4">
+                <i class="fa fa-map-marker text-primary text-5xl mb-3"></i>
+                <h3 class="text-2xl font-bold text-center">全国充电桩查询</h3>
+                <p class="text-gray-600 text-center mt-1">已接入全国超30万充电桩，覆盖98%以上城市</p>
+            </div>
+        </div>
+        <div class="p-6">
+            <div class="flex flex-wrap gap-4 mb-6">
+                <div class="flex-grow">
+                    <div class="relative">
+                        <input id="chargingSearch" type="text" class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入城市或地址查询">
+                        <i class="fa fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    <button id="useCurrentLocation" class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors flex items-center">
+                        <i class="fa fa-location-arrow mr-2 text-primary"></i> 我的位置
+                    </button>
                 </div>
             </div>
             
-            <!-- 技术视频展示 -->
-            <div class="mt-20 bg-gray-50 rounded-2xl overflow-hidden">
-                <div class="grid md:grid-cols-2">
-                    <div class="p-8 md:p-12 flex flex-col justify-center">
-                        <h3 class="text-2xl md:text-3xl font-bold mb-4">技术解析：刀片电池的安全秘密</h3>
-                        <p class="text-gray-600 mb-6">比亚迪刀片电池采用创新的结构设计和材料工艺，通过了行业最严苛的针刺测试，彻底解决了新能源汽车的安全痛点。</p>
-                        <ul class="space-y-3 mb-8">
-                            <li class="flex items-start">
-                                <i class="fa fa-check-circle text-secondary mt-1 mr-3"></i>
-                                <span>通过针刺、挤压、高温等极端测试，不起火、不爆炸</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fa fa-check-circle text-secondary mt-1 mr-3"></i>
-                                <span>体积利用率提升50%，续航里程大幅增加</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fa fa-check-circle text-secondary mt-1 mr-3"></i>
-                                <span>循环寿命可达3000次以上，使用更持久</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="inline-block bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-medium transition-all self-start">
-                            观看完整解析 <i class="fa fa-play-circle ml-2"></i>
+            <!-- 筛选条件 -->
+            <div class="flex flex-wrap gap-2 mb-6">
+                <button class="charging-filter-btn active bg-primary text-white px-4 py-1.5 rounded-full text-sm font-medium transition-all">全部类型</button>
+                <button class="charging-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-4 py-1.5 rounded-full text-sm font-medium transition-all">直流快充</button>
+                <button class="charging-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-4 py-1.5 rounded-full text-sm font-medium transition-all">交流慢充</button>
+                <button class="charging-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-4 py-1.5 rounded-full text-sm font-medium transition-all">比亚迪专属</button>
+                <button class="charging-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-4 py-1.5 rounded-full text-sm font-medium transition-all">免费充电</button>
+            </div>
+            
+            <!-- 充电桩列表 -->
+            <div class="max-h-[400px] overflow-y-auto pr-2">
+                <div class="charging-station bg-gray-50 rounded-lg p-4 mb-3 hover:bg-gray-100 transition-colors">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-lg">比亚迪深圳南山服务中心充电桩</h4>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">可用</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3"><i class="fa fa-map-marker mr-1 text-primary"></i> 广东省深圳市南山区科技园南区8栋</p>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">比亚迪专属</span>
+                        <span class="bg-gray-200 text-gray-700 text-xs px-2 py-0.5 rounded">距离 1.2km</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="text-sm text-gray-500">
+                            <span class="mr-3"><i class="fa fa-plug mr-1 text-primary"></i> 12个充电桩</span>
+                            <span><i class="fa fa-car mr-1 text-primary"></i> 8个空闲</span>
+                        </div>
+                        <a href="#" class="text-primary text-sm font-medium hover:underline flex items-center">
+                            导航前往 <i class="fa fa-arrow-right ml-1"></i>
                         </a>
                     </div>
-                    <div class="relative bg-dark">
-                        <img src="https://picsum.photos/id/1077/800/600" alt="刀片电池技术解析" class="w-full h-full object-cover opacity-80" />
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="w-20 h-20 bg-primary/90 hover:bg-primary rounded-full flex items-center justify-center transition-all transform hover:scale-110">
-                                <i class="fa fa-play text-white text-2xl ml-1"></i>
+                </div>
+                
+                <div class="charging-station bg-gray-50 rounded-lg p-4 mb-3 hover:bg-gray-100 transition-colors">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-lg">深圳湾体育中心充电站</h4>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">可用</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3"><i class="fa fa-map-marker mr-1 text-primary"></i> 广东省深圳市南山区滨海大道3001号</p>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">交流慢充</span>
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">免费充电</span>
+                        <span class="bg-gray-200 text-gray-700 text-xs px-2 py-0.5 rounded">距离 2.5km</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="text-sm text-gray-500">
+                            <span class="mr-3"><i class="fa fa-plug mr-1 text-primary"></i> 20个充电桩</span>
+                            <span><i class="fa fa-car mr-1 text-primary"></i> 12个空闲</span>
+                        </div>
+                        <a href="#" class="text-primary text-sm font-medium hover:underline flex items-center">
+                            导航前往 <i class="fa fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="charging-station bg-gray-50 rounded-lg p-4 mb-3 hover:bg-gray-100 transition-colors">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-lg">科技园北区充电站</h4>
+                        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">繁忙</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3"><i class="fa fa-map-marker mr-1 text-primary"></i> 广东省深圳市南山区科技园北区12栋</p>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">交流慢充</span>
+                        <span class="bg-gray-200 text-gray-700 text-xs px-2 py-0.5 rounded">距离 3.1km</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="text-sm text-gray-500">
+                            <span class="mr-3"><i class="fa fa-plug mr-1 text-primary"></i> 16个充电桩</span>
+                            <span><i class="fa fa-car mr-1 text-primary"></i> 2个空闲</span>
+                        </div>
+                        <a href="#" class="text-primary text-sm font-medium hover:underline flex items-center">
+                            导航前往 <i class="fa fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="charging-station bg-gray-50 rounded-lg p-4 mb-3 hover:bg-gray-100 transition-colors">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-lg">万象天地充电站</h4>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">可用</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3"><i class="fa fa-map-marker mr-1 text-primary"></i> 广东省深圳市南山区粤海街道深南大道9668号</p>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                        <span class="bg-gray-200 text-gray-700 text-xs px-2 py-0.5 rounded">距离 4.3km</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="text-sm text-gray-500">
+                            <span class="mr-3"><i class="fa fa-plug mr-1 text-primary"></i> 10个充电桩</span>
+                            <span><i class="fa fa-car mr-1 text-primary"></i> 5个空闲</span>
+                        </div>
+                        <a href="#" class="text-primary text-sm font-medium hover:underline flex items-center">
+                            导航前往 <i class="fa fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <button id="loadMoreCharging" class="text-primary font-medium hover:underline flex items-center justify-center">
+                    加载更多 <i class="fa fa-angle-down ml-1"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 联系我们模态框（原代码不变） -->
+<div id="supportModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button class="close-modal absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="w-full h-32 flex items-center justify-center bg-primary/5">
+                <i class="fa fa-comments text-primary text-5xl"></i>
+            </div>
+        </div>
+        <div class="p-6">
+            <h3 class="text-2xl font-bold mb-6 text-center">客户支持中心</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <i class="fa fa-phone text-primary text-3xl mb-3"></i>
+                    <h4 class="font-bold mb-2">24小时服务热线</h4>
+                    <a href="tel:4008303666" class="text-primary text-lg font-medium hover:underline">400-830-3666</a>
+                    <p class="text-gray-500 text-sm mt-2">全年无休，随时为您服务</p>
+                </div>
+                
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <i class="fa fa-weixin text-primary text-3xl mb-3"></i>
+                    <h4 class="font-bold mb-2">官方微信公众号</h4>
+                    <p class="text-gray-600 mb-2">比亚迪汽车官方</p>
+                    <div class="w-32 h-32 bg-white p-2 mx-auto rounded-lg border border-gray-200">
+                        <p class="text-xs text-gray-500">微信扫码关注</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="text-lg font-semibold mb-4">在线咨询</h4>
+            <form id="supportForm" class="space-y-4 mb-6">
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="supportName">
+                        您的姓名
+                    </label>
+                    <input id="supportName" type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入姓名" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="supportPhone">
+                        联系电话
+                    </label>
+                    <input id="supportPhone" type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入手机号" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="supportType">
+                        咨询类型
+                    </label>
+                    <select id="supportType" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                        <option value="">请选择咨询类型</option>
+                        <option value="购车咨询">购车咨询</option>
+                        <option value="售后问题">售后问题</option>
+                        <option value="充电服务">充电服务</option>
+                        <option value="投诉建议">投诉建议</option>
+                        <option value="其他问题">其他问题</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2" for="supportContent">
+                        咨询内容
+                    </label>
+                    <textarea id="supportContent" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请详细描述您的问题或需求" required></textarea>
+                </div>
+                <div class="flex justify-end gap-3">
+                    <button type="button" class="cancel-modal border border-gray-300 text-gray-700 px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors">
+                        取消
+                    </button>
+                    <button type="submit" class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors">
+                        提交咨询
+                    </button>
+                </div>
+            </form>
+            
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-semibold mb-2">常见问题</h4>
+                <div class="space-y-2">
+                    <a href="#" class="block text-gray-600 hover:text-primary text-sm flex items-center justify-between">
+                        <span>保养周期是多久？</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <div class="w-full h-px bg-gray-200"></div>
+                    <a href="#" class="block text-gray-600 hover:text-primary text-sm flex items-center justify-between">
+                        <span>充电桩如何收费？</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <div class="w-full h-px bg-gray-200"></div>
+                    <a href="#" class="block text-gray-600 hover:text-primary text-sm flex items-center justify-between">
+                        <span>电池质保政策是什么？</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// 用户服务模块交互功能
+document.addEventListener('DOMContentLoaded', function() {
+    // 模态框元素（新增testDriveModal）
+    const testDriveModal = document.getElementById('testDriveModal');
+    const maintenanceModal = document.getElementById('maintenanceModal');
+    const chargingModal = document.getElementById('chargingModal');
+    const supportModal = document.getElementById('supportModal');
+    const allModals = [testDriveModal, maintenanceModal, chargingModal, supportModal]; // 加入新模态框
+    
+    // 服务按钮
+    const serviceBtns = document.querySelectorAll('.service-btn');
+    
+    // 打开对应模态框（新增test-drive的判断）
+    serviceBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const serviceType = this.getAttribute('data-service');
+            
+            // 关闭所有模态框
+            allModals.forEach(modal => modal.classList.add('hidden'));
+            document.body.style.overflow = '';
+            
+            // 打开对应模态框
+            if (serviceType === 'test-drive') { // 新增：触发试驾模态框
+                testDriveModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else if (serviceType === 'maintenance') {
+                maintenanceModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else if (serviceType === 'charging') {
+                chargingModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else if (serviceType === 'support') {
+                supportModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        });
+    });
+    
+    // 关闭模态框功能（原代码不变，已兼容新模态框）
+    const closeModalBtns = document.querySelectorAll('.close-modal');
+    const cancelModalBtns = document.querySelectorAll('.cancel-modal');
+    
+    function closeAllModals() {
+        allModals.forEach(modal => modal.classList.add('hidden'));
+        document.body.style.overflow = '';
+    }
+    
+    closeModalBtns.forEach(btn => {
+        btn.addEventListener('click', closeAllModals);
+    });
+    
+    cancelModalBtns.forEach(btn => {
+        btn.addEventListener('click', closeAllModals);
+    });
+    
+    // 点击模态框背景关闭（原代码不变）
+    allModals.forEach(modal => {
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeAllModals();
+            }
+        });
+    });
+    
+    // 键盘ESC关闭模态框（原代码不变）
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeAllModals();
+        }
+    });
+    
+    // 新增：预约试驾表单提交逻辑
+    const testDriveForm = document.getElementById('testDriveForm');
+    const testDrivePhone = document.getElementById('testDrivePhone');
+    const testDrivePhoneError = document.getElementById('testDrivePhoneError');
+    
+    // 手机号实时验证
+    if (testDrivePhone) {
+        testDrivePhone.addEventListener('input', function() {
+            const phoneReg = /^1[3-9]\d{9}$/;
+            if (!phoneReg.test(this.value) && this.value !== '') {
+                testDrivePhoneError.classList.remove('hidden');
+                this.classList.add('border-red-500');
+            } else {
+                testDrivePhoneError.classList.add('hidden');
+                this.classList.remove('border-red-500');
+            }
+        });
+    }
+    
+    // 试驾表单提交
+    if (testDriveForm) {
+        testDriveForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // 最终手机号验证
+            const phoneReg = /^1[3-9]\d{9}$/;
+            if (!phoneReg.test(testDrivePhone.value)) {
+                testDrivePhoneError.classList.remove('hidden');
+                testDrivePhone.classList.add('border-red-500');
+                return;
+            }
+            
+            // 模拟表单提交
+            const formData = {
+                name: document.getElementById('testDriveName').value,
+                phone: testDrivePhone.value,
+                model: document.getElementById('testDriveModel').value,
+                city: document.getElementById('testDriveCity').value,
+                date: document.getElementById('testDriveDate').value,
+                time: document.getElementById('testDriveTime').value,
+                remark: document.getElementById('testDriveRemark').value
+            };
+            
+            console.log('预约试驾提交数据：', formData);
+            
+            // 显示提交成功提示
+            alert('试驾预约提交成功！我们的销售顾问将在24小时内与您联系确认');
+            closeAllModals();
+            testDriveForm.reset();
+        });
+    }
+    
+    // 预约保养表单提交（原代码不变）
+    const maintenanceForm = document.getElementById('maintenanceForm');
+    if (maintenanceForm) {
+        maintenanceForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // 模拟表单提交
+            const formData = {
+                carModel: document.getElementById('carModel').value,
+                licensePlate: document.getElementById('licensePlate').value,
+                ownerName: document.getElementById('ownerName').value,
+                phoneNumber: document.getElementById('phoneNumber').value,
+                serviceDate: document.getElementById('serviceDate').value,
+                serviceTime: document.getElementById('serviceTime').value,
+                serviceType: document.getElementById('serviceType').value,
+                serviceRemark: document.getElementById('serviceRemark').value
+            };
+            
+            console.log('预约保养提交数据：', formData);
+            
+            // 显示提交成功提示
+            alert('预约提交成功！我们的服务顾问将在24小时内与您联系确认');
+            closeAllModals();
+            maintenanceForm.reset();
+        });
+    }
+    
+    // 联系我们表单提交（原代码不变）
+    const supportForm = document.getElementById('supportForm');
+    if (supportForm) {
+        supportForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // 模拟表单提交
+            const formData = {
+                supportName: document.getElementById('supportName').value,
+                supportPhone: document.getElementById('supportPhone').value,
+                supportType: document.getElementById('supportType').value,
+                supportContent: document.getElementById('supportContent').value
+            };
+            
+            console.log('咨询提交数据：', formData);
+            
+            // 显示提交成功提示
+            alert('咨询提交成功！我们将尽快为您回复');
+            closeAllModals();
+            supportForm.reset();
+        });
+    }
+    
+    // 充电桩筛选功能（原代码不变）
+    const chargingFilterBtns = document.querySelectorAll('.charging-filter-btn');
+    chargingFilterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // 切换按钮激活状态
+            chargingFilterBtns.forEach(b => b.classList.remove('active', 'bg-primary', 'text-white'));
+            chargingFilterBtns.forEach(b => b.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-100'));
+            this.classList.add('active', 'bg-primary', 'text-white');
+            this.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+            
+            // 这里可以添加筛选逻辑，根据选择的类型过滤充电桩列表
+            const filterType = this.textContent.trim();
+            console.log('筛选充电桩类型：', filterType);
+            // 实际项目中可根据filterType过滤充电桩数据
+        });
+    });
+    
+    // 我的位置按钮（原代码不变）
+    const useCurrentLocationBtn = document.getElementById('useCurrentLocation');
+    if (useCurrentLocationBtn) {
+        useCurrentLocationBtn.addEventListener('click', function() {
+            // 模拟获取当前位置
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    function(position) {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+                        console.log('当前位置：', latitude, longitude);
+                        alert('已获取您的当前位置，正在查询附近充电桩...');
+                        // 实际项目中可根据经纬度查询附近充电桩
+                    },
+                    function(error) {
+                        console.log('获取位置失败：', error);
+                        alert('获取位置失败，请手动输入地址查询');
+                    }
+                );
+            } else {
+                alert('您的浏览器不支持地理定位，请手动输入地址查询');
+            }
+        });
+    }
+    
+    // 加载更多充电桩（原代码不变）
+    const loadMoreChargingBtn = document.getElementById('loadMoreCharging');
+    if (loadMoreChargingBtn) {
+        loadMoreChargingBtn.addEventListener('click', function() {
+            // 模拟加载更多
+            this.innerHTML = '<i class="fa fa-spinner fa-spin mr-1"></i> 加载中...';
+            
+            setTimeout(() => {
+                this.innerHTML = '加载更多 <i class="fa fa-angle-down ml-1"></i>';
+                alert('已加载全部充电桩');
+                // 实际项目中可请求更多充电桩数据并添加到列表
+            }, 1500);
+        });
+    }
+    
+    // 服务卡片hover效果增强（原代码不变）
+    const serviceCards = document.querySelectorAll('.bg-white.rounded-xl.p-6');
+    serviceCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+});
+</script>
+
+<style>
+/* 模态框动画统一 */
+.modal {
+    transition: opacity 0.3s ease;
+}
+.modal.bg-opacity-70 {
+    opacity: 1;
+}
+.modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.modal > div {
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+.modal:not(.hidden) > div {
+    transform: translateY(0);
+}
+
+/* 服务卡片增强样式 */
+.bg-white.rounded-xl.p-6 {
+    transition: all 0.3s ease;
+}
+.bg-white.rounded-xl.p-6:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* 充电桩列表样式优化 */
+.charging-station {
+    transition: background-color 0.2s ease;
+}
+.charging-station:hover {
+    background-color: #f9fafb;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .modal > div {
+        max-width: 95vw;
+    }
+    #chargingModal > div {
+        max-width: 95vw;
+    }
+    .charging-station {
+        padding: 3px;
+    }
+}
+
+/* 补充表单样式 */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2);
+    border-color: #1677ff;
+}
+
+/* 按钮交互优化 */
+button:hover, a:hover {
+    transition: all 0.2s ease;
+}
+
+/* 错误提示样式 */
+.text-red-500 {
+    color: #ef4444;
+}
+.border-red-500 {
+    border-color: #ef4444;
+}
+</style>
+            
+          <!-- 迪粉汇社区 -->
+<div class="bg-white rounded-2xl shadow-md overflow-hidden">
+    <div class="grid md:grid-cols-5">
+        <div class="md:col-span-2 bg-primary p-8 md:p-12 text-white flex flex-col justify-center">
+            <h3 class="text-2xl md:text-3xl font-bold mb-4">迪粉汇社区</h3>
+            <p class="mb-6 opacity-90">加入比亚迪车主社区，分享用车体验，参与线下活动，结识志同道合的朋友</p>
+            <ul class="space-y-3 mb-8">
+                <li class="flex items-center">
+                    <i class="fa fa-star mr-3"></i>
+                    <span>专属车主福利与积分兑换</span>
+                </li>
+                <li class="flex items-center">
+                    <i class="fa fa-star mr-3"></i>
+                    <span>技术交流与改装分享</span>
+                </li>
+                <li class="flex items-center">
+                    <i class="fa fa-star mr-3"></i>
+                    <span>全国车主线下活动</span>
+                </li>
+            </ul>
+            <a href="#" id="joinDipinBtn" class="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-full font-medium transition-all self-start">
+                立即加入
+            </a>
+        </div>
+        <div class="md:col-span-3 grid grid-cols-2 md:grid-cols-3 h-full">
+            <img src="https://picsum.photos/id/1078/400/400" alt="迪粉汇活动" class="w-full h-full object-cover" />
+            <img src="https://picsum.photos/id/1079/400/400" alt="迪粉汇活动" class="w-full h-full object-cover" />
+            <img src="https://picsum.photos/id/1080/400/400" alt="迪粉汇活动" class="w-full h-full object-cover col-span-2 md:col-span-1" />
+        </div>
+    </div>
+</div>
+
+<!-- 迪粉汇加入模态框 -->
+<div id="dipinModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+        <div class="relative">
+            <button id="closeDipinModal" class="absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="w-full h-40 flex items-center justify-center bg-primary/5">
+                <div class="text-center">
+                    <i class="fa fa-users text-primary text-5xl mb-2"></i>
+                    <h3 class="text-2xl font-bold text-primary">加入迪粉汇社区</h3>
+                </div>
+            </div>
+        </div>
+        <div class="p-6">
+            <!-- 选项卡：登录/注册 -->
+            <div class="flex border-b border-gray-200 mb-6">
+                <button id="loginTab" class="tab-btn active py-2 px-4 font-medium text-primary border-b-2 border-primary">
+                    已有账号登录
+                </button>
+                <button id="registerTab" class="tab-btn py-2 px-4 font-medium text-gray-500 hover:text-gray-700">
+                    新用户注册
+                </button>
+            </div>
+            
+            <!-- 登录表单 -->
+            <div id="loginForm" class="tab-content">
+                <form id="dipinLoginForm" class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="loginPhone">
+                            手机号
+                        </label>
+                        <input id="loginPhone" type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入手机号" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="loginPassword">
+                            密码
+                        </label>
+                        <input id="loginPassword" type="password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入密码" required>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <label class="flex items-center">
+                            <input type="checkbox" class="form-checkbox text-primary rounded" checked>
+                            <span class="ml-2 text-sm text-gray-600">记住我</span>
+                        </label>
+                        <a href="#" class="text-sm text-primary hover:underline">忘记密码？</a>
+                    </div>
+                    <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors">
+                        登录并加入社区
+                    </button>
+                    <div class="text-center text-sm text-gray-600">
+                        还没有账号？<a href="#" id="goToRegister" class="text-primary hover:underline">立即注册</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- 注册表单 -->
+            <div id="registerForm" class="tab-content hidden">
+                <form id="dipinRegisterForm" class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="registerPhone">
+                            手机号
+                        </label>
+                        <div class="relative">
+                            <input id="registerPhone" type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入手机号" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="verifyCode">
+                            验证码
+                        </label>
+                        <div class="flex gap-2">
+                            <input id="verifyCode" type="text" class="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入验证码" required>
+                            <button type="button" id="getVerifyCode" class="bg-primary/10 text-primary px-4 py-2 rounded-lg font-medium hover:bg-primary/20 transition-colors whitespace-nowrap">
+                                获取验证码
                             </button>
                         </div>
                     </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="registerPassword">
+                            设置密码
+                        </label>
+                        <input id="registerPassword" type="password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请设置6-18位密码" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-medium mb-2" for="confirmPassword">
+                            确认密码
+                        </label>
+                        <input id="confirmPassword" type="password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请再次输入密码" required>
+                    </div>
+                    <div>
+                        <label class="flex items-start">
+                            <input type="checkbox" class="form-checkbox text-primary rounded mt-1" required>
+                            <span class="ml-2 text-sm text-gray-600">
+                                我已阅读并同意<a href="#" class="text-primary hover:underline">《用户协议》</a>和<a href="#" class="text-primary hover:underline">《隐私政策》</a>
+                            </span>
+                        </label>
+                    </div>
+                    <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors">
+                        注册并加入社区
+                    </button>
+                    <div class="text-center text-sm text-gray-600">
+                        已有账号？<a href="#" id="goToLogin" class="text-primary hover:underline">立即登录</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- 其他登录方式 -->
+            <div class="mt-8">
+                <div class="flex items-center justify-center mb-4">
+                    <div class="w-full h-px bg-gray-200"></div>
+                    <span class="px-4 text-sm text-gray-500">其他登录方式</span>
+                    <div class="w-full h-px bg-gray-200"></div>
+                </div>
+                <div class="flex justify-center gap-6">
+                    <a href="#" class="w-12 h-12 bg-[#07C160]/10 rounded-full flex items-center justify-center text-[#07C160] hover:bg-[#07C160]/20 transition-colors">
+                        <i class="fa fa-weixin text-xl"></i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-[#1DA1F2]/10 rounded-full flex items-center justify-center text-[#1DA1F2] hover:bg-[#1DA1F2]/20 transition-colors">
+                        <i class="fa fa-weibo text-xl"></i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-[#FF0000]/10 rounded-full flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000]/20 transition-colors">
+                        <i class="fa fa-qq text-xl"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- 用户服务 -->
-    <section id="services" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">用户服务</h2>
-                <p class="text-gray-600 text-lg">比亚迪致力于为用户提供全方位、高品质的服务体验，让每一次出行都安心无忧</p>
-                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
-            </div>
+<script>
+// 迪粉汇社区加入功能
+document.addEventListener('DOMContentLoaded', function() {
+    // 模态框元素
+    const dipinModal = document.getElementById('dipinModal');
+    const closeDipinModalBtn = document.getElementById('closeDipinModal');
+    
+    // 选项卡元素
+    const loginTab = document.getElementById('loginTab');
+    const registerTab = document.getElementById('registerTab');
+    const loginForm = document.getElementById('loginForm');
+    const registerForm = document.getElementById('registerForm');
+    const goToRegister = document.getElementById('goToRegister');
+    const goToLogin = document.getElementById('goToLogin');
+    
+    // 打开模态框
+    document.getElementById('joinDipinBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        dipinModal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    });
+    
+    // 关闭模态框
+    function closeDipinModal() {
+        dipinModal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+    
+    closeDipinModalBtn.addEventListener('click', closeDipinModal);
+    
+    // 点击模态框背景关闭
+    dipinModal.addEventListener('click', function(e) {
+        if (e.target === dipinModal) {
+            closeDipinModal();
+        }
+    });
+    
+    // 键盘ESC关闭
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !dipinModal.classList.contains('hidden')) {
+            closeDipinModal();
+        }
+    });
+    
+    // 选项卡切换
+    function switchToLoginTab() {
+        loginTab.classList.add('active', 'text-primary', 'border-b-2', 'border-primary');
+        loginTab.classList.remove('text-gray-500');
+        registerTab.classList.remove('active', 'text-primary', 'border-b-2', 'border-primary');
+        registerTab.classList.add('text-gray-500');
+        loginForm.classList.remove('hidden');
+        registerForm.classList.add('hidden');
+    }
+    
+    function switchToRegisterTab() {
+        registerTab.classList.add('active', 'text-primary', 'border-b-2', 'border-primary');
+        registerTab.classList.remove('text-gray-500');
+        loginTab.classList.remove('active', 'text-primary', 'border-b-2', 'border-primary');
+        loginTab.classList.add('text-gray-500');
+        registerForm.classList.remove('hidden');
+        loginForm.classList.add('hidden');
+    }
+    
+    loginTab.addEventListener('click', switchToLoginTab);
+    registerTab.addEventListener('click', switchToRegisterTab);
+    goToRegister.addEventListener('click', function(e) {
+        e.preventDefault();
+        switchToRegisterTab();
+    });
+    goToLogin.addEventListener('click', function(e) {
+        e.preventDefault();
+        switchToLoginTab();
+    });
+    
+    // 获取验证码功能
+    const getVerifyCodeBtn = document.getElementById('getVerifyCode');
+    let countdown = 0;
+    
+    getVerifyCodeBtn.addEventListener('click', function() {
+        const phone = document.getElementById('registerPhone').value;
+        if (!phone || !/^1[3-9]\d{9}$/.test(phone)) {
+            alert('请输入有效的手机号');
+            return;
+        }
+        
+        // 倒计时逻辑
+        if (countdown === 0) {
+            countdown = 60;
+            getVerifyCodeBtn.disabled = true;
+            getVerifyCodeBtn.textContent = `重新获取(${countdown}s)`;
             
-            <!-- 服务项目 -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
-                        <i class="fa fa-calendar-check-o text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">试驾预约</h3>
-                    <p class="text-gray-600 text-sm">在线预约试驾，专业顾问为您提供一对一服务，深度体验车辆性能</p>
-                    <a href="#contact" class="text-primary font-medium inline-block mt-4 hover:underline">
-                        立即预约 <i class="fa fa-arrow-right ml-1"></i>
-                    </a>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
-                        <i class="fa fa-wrench text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">售后保养</h3>
-                    <p class="text-gray-600 text-sm">全国超600家服务网点，专业技师团队，为您的爱车提供全方位保养服务</p>
-                    <a href="#" class="text-primary font-medium inline-block mt-4 hover:underline">
-                        预约保养 <i class="fa fa-arrow-right ml-1"></i>
-                    </a>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
-                        <i class="fa fa-map-marker text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">充电网络</h3>
-                    <p class="text-gray-600 text-sm">接入全国超30万充电桩，实时查询、导航、支付一站式服务，出行无忧</p>
-                    <a href="#" class="text-primary font-medium inline-block mt-4 hover:underline">
-                        查找充电桩 <i class="fa fa-arrow-right ml-1"></i>
-                    </a>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-5 mx-auto">
-                        <i class="fa fa-comments text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">客户支持</h3>
-                    <p class="text-gray-600 text-sm">7×24小时客户服务热线，专业解答您的疑问，及时处理您的需求</p>
-                    <a href="#" class="text-primary font-medium inline-block mt-4 hover:underline">
-                        联系我们 <i class="fa fa-arrow-right ml-1"></i>
-                    </a>
-                </div>
-            </div>
+            // 模拟发送验证码请求（真实项目替换为后端接口）
+            console.log('向手机号', phone, '发送验证码');
             
-            <!-- 迪粉汇社区 -->
-            <div class="bg-white rounded-2xl shadow-md overflow-hidden">
-                <div class="grid md:grid-cols-5">
-                    <div class="md:col-span-2 bg-primary p-8 md:p-12 text-white flex flex-col justify-center">
-                        <h3 class="text-2xl md:text-3xl font-bold mb-4">迪粉汇社区</h3>
-                        <p class="mb-6 opacity-90">加入比亚迪车主社区，分享用车体验，参与线下活动，结识志同道合的朋友</p>
-                        <ul class="space-y-3 mb-8">
-                            <li class="flex items-center">
-                                <i class="fa fa-star mr-3"></i>
-                                <span>专属车主福利与积分兑换</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa fa-star mr-3"></i>
-                                <span>技术交流与改装分享</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa fa-star mr-3"></i>
-                                <span>全国车主线下活动</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-full font-medium transition-all self-start">
-                            立即加入
-                        </a>
-                    </div>
-                    <div class="md:col-span-3 grid grid-cols-2 md:grid-cols-3 h-full">
-                        <img src="https://picsum.photos/id/1078/400/400" alt="迪粉汇活动" class="w-full h-full object-cover" />
-                        <img src="https://picsum.photos/id/1079/400/400" alt="迪粉汇活动" class="w-full h-full object-cover" />
-                        <img src="https://picsum.photos/id/1080/400/400" alt="迪粉汇活动" class="w-full h-full object-cover col-span-2 md:col-span-1" />
-                    </div>
-                </div>
-            </div>
+            const timer = setInterval(() => {
+                countdown--;
+                getVerifyCodeBtn.textContent = `重新获取(${countdown}s)`;
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    getVerifyCodeBtn.disabled = false;
+                    getVerifyCodeBtn.textContent = '获取验证码';
+                }
+            }, 1000);
+        }
+    });
+    
+    // 登录表单提交（对接真实后端）
+    document.getElementById('dipinLoginForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const loginData = {
+            phone: document.getElementById('loginPhone').value,
+            password: document.getElementById('loginPassword').value
+        };
+        
+        try {
+            // 替换为你的真实登录接口
+            const response = await axios.post(`${API_BASE_URL}/dipin/login`, loginData, {
+                headers: { 'Content-Type': 'application/json' }
+            });
+            
+            if (response.data.code === 200) {
+                alert('登录成功！已加入迪粉汇社区');
+                // 存储用户信息（真实项目可存入localStorage）
+                localStorage.setItem('dipinUser', JSON.stringify(response.data.data));
+                closeDipinModal();
+                // 可跳转至社区首页
+                // window.location.href = '/dipin-community';
+            } else {
+                alert('登录失败：' + (response.data.message || '账号或密码错误'));
+            }
+        } catch (error) {
+            console.error('登录失败：', error);
+            alert('网络异常，请检查网络连接或稍后再试');
+        }
+    });
+    
+    // 注册表单提交（对接真实后端）
+    document.getElementById('dipinRegisterForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const registerPhone = document.getElementById('registerPhone').value;
+        const verifyCode = document.getElementById('verifyCode').value;
+        const registerPassword = document.getElementById('registerPassword').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+        
+        // 前端表单验证
+        if (!/^1[3-9]\d{9}$/.test(registerPhone)) {
+            alert('请输入有效的手机号');
+            return;
+        }
+        if (!verifyCode || verifyCode.length !== 6) {
+            alert('请输入6位验证码');
+            return;
+        }
+        if (registerPassword.length < 6 || registerPassword.length > 18) {
+            alert('密码长度需为6-18位');
+            return;
+        }
+        if (registerPassword !== confirmPassword) {
+            alert('两次输入的密码不一致');
+            return;
+        }
+        
+        const registerData = {
+            phone: registerPhone,
+            verifyCode: verifyCode,
+            password: registerPassword
+        };
+        
+        try {
+            // 替换为你的真实注册接口
+            const response = await axios.post(`${API_BASE_URL}/dipin/register`, registerData, {
+                headers: { 'Content-Type': 'application/json' }
+            });
+            
+            if (response.data.code === 200) {
+                alert('注册成功！已自动加入迪粉汇社区');
+                // 存储用户信息
+                localStorage.setItem('dipinUser', JSON.stringify(response.data.data));
+                closeDipinModal();
+                // 可跳转至社区首页
+                // window.location.href = '/dipin-community';
+            } else {
+                alert('注册失败：' + (response.data.message || '注册失败，请稍后再试'));
+            }
+        } catch (error) {
+            console.error('注册失败：', error);
+            alert('网络异常，请检查网络连接或稍后再试');
+        }
+    });
+    
+    // 模态框动画
+    dipinModal.style.transition = 'opacity 0.3s ease';
+    dipinModal.querySelector('> div').style.transform = 'translateY(-20px)';
+    dipinModal.querySelector('> div').style.transition = 'transform 0.3s ease';
+    
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.attributeName === 'class') {
+                if (!dipinModal.classList.contains('hidden')) {
+                    dipinModal.style.opacity = '1';
+                    dipinModal.querySelector('> div').style.transform = 'translateY(0)';
+                } else {
+                    dipinModal.style.opacity = '0';
+                    dipinModal.querySelector('> div').style.transform = 'translateY(-20px)';
+                }
+            }
+        });
+    });
+    
+    observer.observe(dipinModal, { attributes: true });
+});
+</script>
+
+<style>
+/* 迪粉汇模态框样式补充 */
+.tab-btn:focus {
+    outline: none;
+}
+.charging-station {
+    transition: background-color 0.2s ease;
+}
+.charging-station:hover {
+    background-color: #f9fafb;
+}
+/* 表单输入框聚焦样式统一 */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2);
+    border-color: #1677ff;
+}
+/* 按钮交互优化 */
+button:hover, a:hover {
+    transition: all 0.2s ease;
+}
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #dipinModal > div {
+        max-width: 95vw;
+    }
+    .tab-btn {
+        padding: 2px 8px;
+        font-size: 0.875rem;
+    }
+}
+</style>
             
             <!-- 充电网络覆盖 -->
-            <div class="mt-16 bg-white rounded-2xl shadow-md p-8">
-                <h3 class="text-2xl font-bold mb-8 text-center">充电网络覆盖</h3>
-                <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <div>
-                        <div class="mb-6">
-                            <div class="flex justify-between mb-2">
-                                <span class="font-medium">一线城市覆盖率</span>
-                                <span class="text-primary font-bold">98%</span>
-                            </div>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                <div class="bg-primary h-2.5 rounded-full" style="width: 98%"></div>
-                            </div>
+<div class="mt-16 bg-white rounded-2xl shadow-md p-8">
+    <h3 class="text-2xl font-bold mb-8 text-center">充电网络覆盖</h3>
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span class="font-medium">一线城市覆盖率</span>
+                    <span class="text-primary font-bold">98%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-primary h-2.5 rounded-full" style="width: 98%"></div>
+                </div>
+            </div>
+            
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span class="font-medium">二线城市覆盖率</span>
+                    <span class="text-primary font-bold">92%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-primary h-2.5 rounded-full" style="width: 92%"></div>
+                </div>
+            </div>
+            
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span class="font-medium">三线城市覆盖率</span>
+                    <span class="text-primary font-bold">85%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-primary h-2.5 rounded-full" style="width: 85%"></div>
+                </div>
+            </div>
+            
+            <div class="mb-8">
+                <div class="flex justify-between mb-2">
+                    <span class="font-medium">高速服务区覆盖率</span>
+                    <span class="text-primary font-bold">90%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-primary h-2.5 rounded-full" style="width: 90%"></div>
+                </div>
+            </div>
+            
+            <a href="#" id="viewChargingMapBtn" class="inline-block bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-medium transition-all">
+                查看充电地图 <i class="fa fa-map-o ml-2"></i>
+            </a>
+        </div>
+        
+        <div class="h-64 md:h-80">
+            <canvas id="chargingChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- 充电地图模态框 -->
+<div id="chargingMapModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
+        <div class="relative border-b border-gray-200">
+            <button id="closeChargingMapModal" class="absolute top-4 right-4 bg-white bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors z-10">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="p-4 md:p-6">
+                <h3 class="text-2xl font-bold text-center mb-4">比亚迪充电网络地图</h3>
+                
+                <!-- 搜索和筛选栏 -->
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex-grow">
+                        <div class="relative">
+                            <input id="mapSearchInput" type="text" class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="输入城市、地址或充电站名称搜索">
+                            <i class="fa fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
                         </div>
-                        
-                        <div class="mb-6">
-                            <div class="flex justify-between mb-2">
-                                <span class="font-medium">二线城市覆盖率</span>
-                                <span class="text-primary font-bold">92%</span>
-                            </div>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                <div class="bg-primary h-2.5 rounded-full" style="width: 92%"></div>
-                            </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <button id="mapLocateBtn" class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors flex items-center">
+                            <i class="fa fa-location-arrow mr-2 text-primary"></i> 我的位置
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 筛选标签 -->
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <button class="map-filter-btn active bg-primary text-white px-3 py-1 rounded-full text-sm font-medium transition-all">全部</button>
+                    <button class="map-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-3 py-1 rounded-full text-sm font-medium transition-all">直流快充</button>
+                    <button class="map-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-3 py-1 rounded-full text-sm font-medium transition-all">交流慢充</button>
+                    <button class="map-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-3 py-1 rounded-full text-sm font-medium transition-all">比亚迪专属</button>
+                    <button class="map-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-3 py-1 rounded-full text-sm font-medium transition-all">免费充电</button>
+                    <button class="map-filter-btn bg-white text-gray-700 hover:bg-gray-100 px-3 py-1 rounded-full text-sm font-medium transition-all">高速服务区</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 地图和列表容器 -->
+        <div class="flex flex-1 overflow-hidden">
+            <!-- 地图展示区（占2/3宽度） -->
+            <div class="w-full md:w-2/3 h-[calc(90vh-200px)] bg-gray-100 relative" id="mapContainer">
+                <!-- 模拟地图加载中 -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="text-center">
+                        <i class="fa fa-map-o text-primary text-5xl mb-3"></i>
+                        <p class="text-gray-500">地图加载中...</p>
+                    </div>
+                </div>
+                
+                <!-- 地图标记点（模拟，真实项目由地图SDK渲染） -->
+                <div class="absolute top-1/4 left-1/3 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="1">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-1/2 left-1/2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="2">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-2/3 left-1/4 w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="3">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-1/3 left-2/3 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="4">
+                    <i class="fa fa-plug"></i>
+                </div>
+            </div>
+            
+            <!-- 充电桩列表（占1/3宽度，默认隐藏，移动端可展开） -->
+            <div class="w-full md:w-1/3 h-[calc(90vh-200px)] overflow-y-auto border-t md:border-t-0 md:border-l border-gray-200 bg-white" id="chargingListPanel">
+                <div class="p-4 border-b border-gray-200 flex justify-between items-center">
+                    <h4 class="font-bold text-lg">附近充电桩</h4>
+                    <button id="closeListPanel" class="md:hidden text-gray-500 hover:text-gray-700">
+                        <i class="fa fa-times"></i>
+                    </button>
+                </div>
+                
+                <!-- 充电桩列表内容 -->
+                <div class="p-2">
+                    <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="1">
+                        <div class="flex justify-between items-start">
+                            <h5 class="font-semibold">科技园充电站</h5>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
                         </div>
-                        
-                        <div class="mb-6">
-                            <div class="flex justify-between mb-2">
-                                <span class="font-medium">三线城市覆盖率</span>
-                                <span class="text-primary font-bold">85%</span>
-                            </div>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                <div class="bg-primary h-2.5 rounded-full" style="width: 85%"></div>
-                            </div>
+                        <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 1.2km</p>
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">比亚迪专属</span>
                         </div>
-                        
-                        <div class="mb-8">
-                            <div class="flex justify-between mb-2">
-                                <span class="font-medium">高速服务区覆盖率</span>
-                                <span class="text-primary font-bold">90%</span>
-                            </div>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                <div class="bg-primary h-2.5 rounded-full" style="width: 90%"></div>
-                            </div>
+                        <div class="flex justify-between items-center mt-2 text-sm">
+                            <span class="text-gray-500">12个桩 · 8个空闲</span>
+                            <button class="text-primary hover:underline">导航</button>
                         </div>
-                        
-                        <a href="#" class="inline-block bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-medium transition-all">
-                            查看充电地图 <i class="fa fa-map-o ml-2"></i>
-                        </a>
                     </div>
                     
-                    <div class="h-64 md:h-80">
-                        <canvas id="chargingChart"></canvas>
+                    <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="2">
+                        <div class="flex justify-between items-start">
+                            <h5 class="font-semibold">深圳湾体育中心充电站</h5>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 2.5km</p>
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">交流慢充</span>
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">免费充电</span>
+                        </div>
+                        <div class="flex justify-between items-center mt-2 text-sm">
+                            <span class="text-gray-500">20个桩 · 12个空闲</span>
+                            <button class="text-primary hover:underline">导航</button>
+                        </div>
+                    </div>
+                    
+                    <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="3">
+                        <div class="flex justify-between items-start">
+                            <h5 class="font-semibold">高速服务区充电站</h5>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-0.5 rounded">繁忙</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 3.1km</p>
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">高速服务区</span>
+                        </div>
+                        <div class="flex justify-between items-center mt-2 text-sm">
+                            <span class="text-gray-500">16个桩 · 2个空闲</span>
+                            <button class="text-primary hover:underline">导航</button>
+                        </div>
+                    </div>
+                    
+                    <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="4">
+                        <div class="flex justify-between items-start">
+                            <h5 class="font-semibold">万象天地充电站</h5>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 4.3km</p>
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                        </div>
+                        <div class="flex justify-between items-center mt-2 text-sm">
+                            <span class="text-gray-500">10个桩 · 5个空闲</span>
+                            <button class="text-primary hover:underline">导航</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    
+    <!-- 移动端列表展开按钮 -->
+    <button id="showListPanel" class="md:hidden fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-10">
+        <i class="fa fa-list"></i>
+    </button>
+</div>
+
+<script>
+// 充电地图功能
+document.addEventListener('DOMContentLoaded', function() {
+    // 模态框元素
+    const chargingMapModal = document.getElementById('chargingMapModal');
+    const closeChargingMapModalBtn = document.getElementById('closeChargingMapModal');
+    
+    // 地图相关元素
+    const mapContainer = document.getElementById('mapContainer');
+    const chargingListPanel = document.getElementById('chargingListPanel');
+    const showListPanelBtn = document.getElementById('showListPanel');
+    const closeListPanelBtn = document.getElementById('closeListPanel');
+    const mapFilterBtns = document.querySelectorAll('.map-filter-btn');
+    const mapSearchInput = document.getElementById('mapSearchInput');
+    const mapLocateBtn = document.getElementById('mapLocateBtn');
+    
+    // 打开充电地图模态框
+    document.getElementById('viewChargingMapBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        chargingMapModal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        
+        // 模拟地图加载（真实项目替换为地图SDK初始化）
+        setTimeout(() => {
+            mapContainer.innerHTML = `
+                <img src="https://picsum.photos/id/101/1200/800" alt="充电地图" class="w-full h-full object-cover">
+                <!-- 保留原标记点 -->
+                <div class="absolute top-1/4 left-1/3 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="1">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-1/2 left-1/2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="2">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-2/3 left-1/4 w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="3">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="absolute top-1/3 left-2/3 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="4">
+                    <i class="fa fa-plug"></i>
+                </div>
+            `;
+            
+            // 重新绑定标记点点击事件
+            bindMarkerClickEvents();
+        }, 1500);
+    });
+    
+    // 关闭充电地图模态框
+    function closeChargingMapModal() {
+        chargingMapModal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+    
+    closeChargingMapModalBtn.addEventListener('click', closeChargingMapModal);
+    
+    // 点击模态框背景关闭
+    chargingMapModal.addEventListener('click', function(e) {
+        if (e.target === chargingMapModal) {
+            closeChargingMapModal();
+        }
+    });
+    
+    // 键盘ESC关闭
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !chargingMapModal.classList.contains('hidden')) {
+            closeChargingMapModal();
+        }
+    });
+    
+    // 移动端列表面板控制
+    showListPanelBtn.addEventListener('click', function() {
+        chargingListPanel.classList.remove('hidden');
+        showListPanelBtn.classList.add('hidden');
+    });
+    
+    closeListPanelBtn.addEventListener('click', function() {
+        chargingListPanel.classList.add('hidden');
+        showListPanelBtn.classList.remove('hidden');
+    });
+    
+    // 筛选按钮切换
+    mapFilterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            mapFilterBtns.forEach(b => {
+                b.classList.remove('active', 'bg-primary', 'text-white');
+                b.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+            });
+            this.classList.add('active', 'bg-primary', 'text-white');
+            this.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+            
+            // 模拟筛选逻辑（真实项目对接后端接口筛选）
+            const filterType = this.textContent.trim();
+            console.log('筛选充电桩类型：', filterType);
+            // 可根据筛选类型更新地图标记点和列表
+        });
+    });
+    
+    // 地图搜索功能
+    mapSearchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            const keyword = this.value.trim();
+            if (keyword) {
+                console.log('搜索充电桩：', keyword);
+                // 模拟搜索加载
+                mapContainer.innerHTML = `
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fa fa-search text-primary text-5xl mb-3"></i>
+                            <p class="text-gray-500">正在搜索 "${keyword}" 相关充电桩...</p>
+                        </div>
+                    </div>
+                `;
+                
+                // 模拟搜索结果返回
+                setTimeout(() => {
+                    mapContainer.innerHTML = `
+                        <img src="https://picsum.photos/id/101/1200/800" alt="充电地图" class="w-full h-full object-cover">
+                        <!-- 搜索结果标记点 -->
+                        <div class="absolute top-1/3 left-1/2 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="5">
+                            <i class="fa fa-plug"></i>
+                        </div>
+                        <div class="absolute top-1/2 left-2/3 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="6">
+                            <i class="fa fa-plug"></i>
+                        </div>
+                    `;
+                    
+                    // 更新列表（模拟搜索结果）
+                    const listPanel = document.querySelector('#chargingListPanel .p-2');
+                    listPanel.innerHTML = `
+                        <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="5">
+                            <div class="flex justify-between items-start">
+                                <h5 class="font-semibold">${keyword}充电站A</h5>
+                                <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                            </div>
+                            <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 1.8km</p>
+                            <div class="flex flex-wrap gap-1 mt-2">
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                            </div>
+                            <div class="flex justify-between items-center mt-2 text-sm">
+                                <span class="text-gray-500">8个桩 · 4个空闲</span>
+                                <button class="text-primary hover:underline">导航</button>
+                            </div>
+                        </div>
+                        <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="6">
+                            <div class="flex justify-between items-start">
+                                <h5 class="font-semibold">${keyword}充电站B</h5>
+                                <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                            </div>
+                            <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 2.3km</p>
+                            <div class="flex flex-wrap gap-1 mt-2">
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">交流慢充</span>
+                            </div>
+                            <div class="flex justify-between items-center mt-2 text-sm">
+                                <span class="text-gray-500">10个桩 · 7个空闲</span>
+                                <button class="text-primary hover:underline">导航</button>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // 绑定新标记点点击事件
+                    bindMarkerClickEvents();
+                    // 绑定列表项点击事件
+                    bindChargingItemClickEvents();
+                }, 1500);
+            }
+        }
+    });
+    
+    // 定位功能
+    mapLocateBtn.addEventListener('click', function() {
+        if (navigator.geolocation) {
+            this.innerHTML = '<i class="fa fa-spinner fa-spin mr-2 text-primary"></i> 定位中...';
+            this.disabled = true;
+            
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    console.log('当前位置：', latitude, longitude);
+                    
+                    // 模拟定位成功后的地图更新
+                    mapContainer.innerHTML = `
+                        <img src="https://picsum.photos/id/101/1200/800" alt="充电地图" class="w-full h-full object-cover">
+                        <!-- 当前位置标记 -->
+                        <div class="absolute top-1/2 left-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer border-2 border-white shadow-md">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <!-- 附近充电桩标记 -->
+                        <div class="absolute top-1/2 left-1/2+100px w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="7">
+                            <i class="fa fa-plug"></i>
+                        </div>
+                        <div class="absolute top-1/2-50px left-1/2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs cursor-pointer map-marker" data-id="8">
+                            <i class="fa fa-plug"></i>
+                        </div>
+                    `;
+                    
+                    // 更新列表为附近充电桩
+                    const listPanel = document.querySelector('#chargingListPanel .p-2');
+                    listPanel.innerHTML = `
+                        <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="7">
+                            <div class="flex justify-between items-start">
+                                <h5 class="font-semibold">您附近的充电站</h5>
+                                <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                            </div>
+                            <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 0.8km</p>
+                            <div class="flex flex-wrap gap-1 mt-2">
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">直流快充</span>
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">比亚迪专属</span>
+                            </div>
+                            <div class="flex justify-between items-center mt-2 text-sm">
+                                <span class="text-gray-500">15个桩 · 10个空闲</span>
+                                <button class="text-primary hover:underline">导航</button>
+                            </div>
+                        </div>
+                        <div class="charging-item bg-gray-50 rounded-lg p-3 mb-2 hover:bg-gray-100 transition-colors cursor-pointer" data-id="8">
+                            <div class="flex justify-between items-start">
+                                <h5 class="font-semibold">社区充电站</h5>
+                                <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-0.5 rounded">可用</span>
+                            </div>
+                            <p class="text-gray-600 text-sm mt-1"><i class="fa fa-map-marker mr-1 text-primary"></i> 距离 1.1km</p>
+                            <div class="flex flex-wrap gap-1 mt-2">
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">交流慢充</span>
+                                <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">免费充电</span>
+                            </div>
+                            <div class="flex justify-between items-center mt-2 text-sm">
+                                <span class="text-gray-500">20个桩 · 15个空闲</span>
+                                <button class="text-primary hover:underline">导航</button>
+                            </div>
+                        </div>
+                    `;
+                    
+                    mapLocateBtn.innerHTML = '<i class="fa fa-location-arrow mr-2 text-primary"></i> 我的位置';
+                    mapLocateBtn.disabled = false;
+                    
+                    // 绑定标记点和列表项点击事件
+                    bindMarkerClickEvents();
+                    bindChargingItemClickEvents();
+                },
+                function(error) {
+                    console.error('定位失败：', error);
+                    alert('定位失败，请检查设备定位权限或手动搜索');
+                    mapLocateBtn.innerHTML = '<i class="fa fa-location-arrow mr-2 text-primary"></i> 我的位置';
+                    mapLocateBtn.disabled = false;
+                }
+            );
+        } else {
+            alert('您的浏览器不支持地理定位，请手动输入地址查询');
+        }
+    });
+    
+    // 绑定地图标记点点击事件
+    function bindMarkerClickEvents() {
+        const markers = document.querySelectorAll('.map-marker');
+        markers.forEach(marker => {
+            marker.addEventListener('click', function() {
+                const markerId = this.getAttribute('data-id');
+                console.log('点击标记点：', markerId);
+                
+                // 高亮对应的列表项
+                const chargingItems = document.querySelectorAll('.charging-item');
+                chargingItems.forEach(item => {
+                    if (item.getAttribute('data-id') === markerId) {
+                        item.classList.add('bg-primary/10');
+                        item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        // 3秒后取消高亮
+                        setTimeout(() => {
+                            item.classList.remove('bg-primary/10');
+                        }, 3000);
+                    }
+                });
+                
+                // 移动端自动显示列表面板
+                if (window.innerWidth < 768) {
+                    chargingListPanel.classList.remove('hidden');
+                    showListPanelBtn.classList.add('hidden');
+                }
+            });
+        });
+    }
+    
+    // 绑定充电桩列表项点击事件
+    function bindChargingItemClickEvents() {
+        const chargingItems = document.querySelectorAll('.charging-item');
+        chargingItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const itemId = this.getAttribute('data-id');
+                console.log('点击列表项：', itemId);
+                
+                // 高亮对应的标记点
+                const markers = document.querySelectorAll('.map-marker');
+                markers.forEach(marker => {
+                    if (marker.getAttribute('data-id') === itemId) {
+                        marker.classList.add('ring-2', 'ring-white', 'ring-offset-2');
+                        // 3秒后取消高亮
+                        setTimeout(() => {
+                            marker.classList.remove('ring-2', 'ring-white', 'ring-offset-2');
+                        }, 3000);
+                    }
+                });
+            });
+        });
+    }
+    
+    // 初始化绑定事件
+    bindMarkerClickEvents();
+    bindChargingItemClickEvents();
+    
+    // 模态框动画
+    chargingMapModal.style.transition = 'opacity 0.3s ease';
+    chargingMapModal.querySelector('> div').style.transform = 'translateY(-20px)';
+    chargingMapModal.querySelector('> div').style.transition = 'transform 0.3s ease';
+    
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.attributeName === 'class') {
+                if (!chargingMapModal.classList.contains('hidden')) {
+                    chargingMapModal.style.opacity = '1';
+                    chargingMapModal.querySelector('> div').style.transform = 'translateY(0)';
+                } else {
+                    chargingMapModal.style.opacity = '0';
+                    chargingMapModal.querySelector('> div').style.transform = 'translateY(-20px)';
+                }
+            }
+        });
+    });
+    
+    observer.observe(chargingMapModal, { attributes: true });
+});
+</script>
+
+<style>
+/* 充电地图模态框样式补充 */
+#mapContainer {
+    transition: all 0.3s ease;
+}
+.charging-item {
+    transition: background-color 0.2s ease;
+}
+.charging-item:hover {
+    background-color: #f9fafb;
+}
+.map-marker {
+    transition: all 0.2s ease;
+}
+.map-marker:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #chargingMapModal > div {
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+    #mapContainer, #chargingListPanel {
+        height: calc(95vh - 220px) !important;
+    }
+    #chargingListPanel {
+        position: absolute;
+        top: 180px;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        width: 85% !important;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+    #chargingListPanel:not(.hidden) {
+        transform: translateX(0);
+    }
+}
+/* 表单和按钮样式统一 */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2);
+    border-color: #1677ff;
+}
+button:hover, a:hover {
+    transition: all 0.2s ease;
+}
+/* 地图加载动画 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#mapContainer img {
+    animation: fadeIn 0.5s ease-in-out;
+}
+</style>
 
     <!-- 预约试驾 -->
     <section id="contact" class="py-20 bg-white">
